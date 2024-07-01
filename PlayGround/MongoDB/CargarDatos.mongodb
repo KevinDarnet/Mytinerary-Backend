@@ -1,0 +1,87 @@
+const database = 'MyTinerary';
+
+use(database);
+
+db.itineraries.insertMany([
+  
+  {"image": "https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/article/,61a0a6785bafe84d6e827bfb/gran-muralla-china_0.jpg",
+  "name": "Great Wall of China",
+  "userimage": "https://images.pexels.com/photos/6292455/pexels-photo-6292455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "username":"Iwao Komiyama" ,
+  "details": "Few cities in the world have served for so long as the political headquarters and cultural centre of an area as immense as China.",
+  "price": "4",
+  "duration": "2",
+  "hashtag":["#Pekin",
+    "#greatwall"],
+    "flag": "https://media.istockphoto.com/photos/china-flag-a-series-of-flags-of-the-world-picture-id878587072?k=20&m=878587072&s=612x612&w=0&h=5cTiuSjsJbOeZfwj3OnTiaLVVqCJnha1Q6ikf_wKFoE=",
+  "likes": "",
+  "activities": "",
+  "comments": "",
+  "cityId": ""
+}
+{"image": "https://image.arrivalguides.com/1230x800/19/30d05a00042421ee0944b72588a955e3.jpg",
+  "name": "Yonghe Temple",
+  "userimage": "https://images.pexels.com/photos/3778603/pexels-photo-3778603.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "username":"Ramon Garcia" ,
+  "details": "Visit to Yonghe Temple. One of the greatest buddhist praying temples.",
+  "price": "2",
+  "duration": "1.5h",
+  "hashtag":[  "#YongheTemple",
+    "#Pekin"],
+    "flag": "https://media.istockphoto.com/photos/china-flag-a-series-of-flags-of-the-world-picture-id878587072?k=20&m=878587072&s=612x612&w=0&h=5cTiuSjsJbOeZfwj3OnTiaLVVqCJnha1Q6ikf_wKFoE=",
+  "likes": "",
+  "activities": "",
+  "comments": "",
+  "cityId": ""
+},
+{"image": "https://as2.ftcdn.net/v2/jpg/02/62/48/69/1000_F_262486969_d2hToAZvZFUBNu2u9B3D0q9BbxJNcNU6.jpg"
+  "name": "Pyramid of Khafre",
+  "userimage": "https://images.pexels.com/photos/3872246/pexels-photo-3872246.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  "username":"Lujan Rodriguez",
+  "details": "Built by Khufu's son Khafre, it at first appears to be larger than his father's earlier pyramid as it stands on a higher piece of land. A considerable section of the original limestone casing has managed to be preserved on the apex of the pyramid.",
+  "price": "5",
+  "duration": "5h",
+  "hashtag":["#Chephren",
+    "#Pyramid"],
+    "flag": "https://www.ecured.cu/images/9/9a/Bandera_egipto.png",
+  "likes": "",
+  "activities": "",
+  "comments": ""
+},
+{"image": "https://www.planetware.com/photos-large/EGY/egypt-pyramids-of-giza-solar-boat-museum.jpg"
+  "name": "Solar Boat Museum",
+  "username":"James Rodriguez",
+  "details": "Excavations on the south and east sides of the Pyramid of Cheops in 1954 brought to light five long cavities for boats, with a Solar Barque broken into more than a thousand pieces as a votive offering.",
+  "price": "2",
+  "duration": "1.5h",
+  "hashtag":["#Solarboatmuseum","#Guiza"],
+  "flag": "https://www.ecured.cu/images/9/9a/Bandera_egipto.png",
+  "likes": "",
+  "activities": "",
+  "comments": "",
+  "cityId": "",
+},
+{"image": "https://www.planetware.com/photos-large/EGY/egypt-pyramids-of-giza-solar-boat-museum.jpg"
+  "name": "Solar Boat Museum",
+  "username":"James Rodriguez",
+  "details": "Excavations on the south and east sides of the Pyramid of Cheops in 1954 brought to light five long cavities for boats, with a Solar Barque broken into more than a thousand pieces as a votive offering.",
+  "price": "2",
+  "duration": "1.5h",
+  "hashtag":["#Solarboatmuseum","#Guiza"],
+  "likes": "",
+  "activities": "",
+  "comments": ""
+  "cityId": "",
+}.{"image": "https://www.planetware.com/photos-large/EGY/egypt-pyramids-of-giza-solar-boat-museum.jpg"
+  "name": "Solar Boat Museum"
+  "username":"James Rodriguez" 
+  "details": "Excavations on the south and east sides of the Pyramid of Cheops in 1954 brought to light five long cavities for boats, with a Solar Barque broken into more than a thousand pieces as a votive offering.",
+  "price": "2"
+  "duration": "1.5h"
+  "hashtag":["#Solarboatmuseum","#Guiza"]
+  "likes": ""
+  "activities": ""
+  "comments": ""
+  "cityId": ""
+}]);
+
